@@ -24,7 +24,7 @@ You will need the following
 * JQuery
 
 ## Support
-For assistance contact author at stevekimanthi87@gmail.com
+For assistance contact author at    `zubkayare@gmail.com`
 
 ## copyright and license information
 Copyright (c) [2019] [Zubeyr Abubakar]
