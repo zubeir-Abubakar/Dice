@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+     <link href="css/styles.css" rel="stylesheet" type="text/css">
+     <link href="css/flexslider.css" rel="stylesheet" type="text/css">
+     <script   src="https://code.jquery.com/jquery-3.3.1.min.js"
+     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+     crossorigin="anonymous"></script>
+     <script src="js/scripts.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <div class="title-bar">
+      <div class="title">
+        <h2 class="pork"> <span id="pork">PUNCH</span> ZONE</h2>
+        <p class="game">gaming</p>
+      </div>
+    </div>
+    <div class="link-bar">
+      <div class="home">
+        <a href="index.html">HOME</a>
+        <div class="news">
+          NEWS
+        </div>
+        <div class="reviews">REVIEWS</div>
+      </div>
+    </div>
+
+    <div class="wall2">
+      <div class="wall2-cover">
+        <div class="container">
+          <div class="row">
+            <form id="form1" onsubmit="return false" >
+              <div class="col-md-5">
+                <div class="playerOne">
+                  <div class="playerNameOne">
+
+                  </div>
+                  <div class="p1Out">
+
+                  </div>
+
+                  <input id="rollOne" type="submit" name="roll" value="ROLL">
+                  <input id="hold" type="submit" name="hold" value="HOLD">
+                  <div class="output2">
+
+                  </div>
+                </div>
+              </div>
+            </form>
+
+            <div class="col-md-2">
+              <div class="output">
+
+              </div>
+            </div>
+            <form id="form2"  onsubmit="return false">
+              <div class="col-md-5">
+                <div class="playerTwo">
+                  <div class="playerNameTwo">
+
+                  </div>
+                  <div class="p2Out">
+
+                  </div>
+                  <input id="rollTwo" type="submit" name="roll" value="ROLL">
+                  <input id="hold2" type="submit" name="hold" value="HOLD">
+                  <div class="output3">
+
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="vic1">
+           <label for="victim1">VICTIM ONE:</label>
+           <input id="victim1" class="form-control" type="text">
+           <input type="submit" id="play1" name="submit" value="submit">
+       </div>
+        <div class="vic2">
+           <label for="victim2">VICTIM TWO:</label>
+           <input id="victim2" class="form-control" type="text">
+           <input type="submit" id="play2" name="submit" value="submit">
+       </div>
+      </div>
+      <div class="winner">
+        <div class="win">
+
+        </div>
+        <input type="submit" id="new" name="submit" value="NEW GAME" onClick="window.location.reload()" >
+      </div>
+    </div>
+
+  </body>
+</html>
