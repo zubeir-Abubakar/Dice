@@ -18,10 +18,10 @@ You will need the following
 - A web browser
 - This link
 ## technologies used
-* HTML
-* CSS
-* Bootstrap
-* JQuery
+* `HTML`
+* `CSS`
+* `Bootstrap`
+* `JQuery`
 
 ## Support
 For assistance contact author at    `zubkayare@gmail.com`
